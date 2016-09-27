@@ -7,4 +7,5 @@
 #
 name = IO.gets "What is your name? "
 name = String.replace(name, "\n", "") |> String.capitalize
-IO.write("Hello #{name}, nice to meet you!")
+phrase = "Hello #{name}, nice to meet you!"
+IO.write phrase
